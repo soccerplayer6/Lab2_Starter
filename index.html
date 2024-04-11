@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-32x32.png" />
+    <title>CSE 110 Meeting Minutes 4/10</title>
+  </head>
+  <header>
+    <h1>CSE 110 Meeting Minutes 4/10</h1>
+    <h2>Brainstorming Session:</h2>
+    <nav>
+        <a href="https://docs.google.com/document/u/0/">Google doc</a>
+    </nav>
+        <p>Audio recording of meeting:</p> <br>
+        <audio controls>
+            <source src="meeting.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+          <br>
+          <p>Video recording of meeting:</p>
+          <video width="400" controls>
+            <source src="recording.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+  </header>
+  <main>
+    <body>
+        <section>
+            <h3>Agenda:</h3>
+            <ul>
+                <li><em>Unfinished Business</em></li>
+                <li>New Business</li>
+                <li>Brainstorming</li>
+            </ul>
+        </section>
+        <div>
+            <p><b>Unfinished Business:</b></p>
+            <ol>
+                <li><span style="color:red">CSE 110 Lab</span></li>
+                <li><i>CSE 110 Video</i></li>
+            </ol>
+        </div>
+        <hr>
+
+        <div>
+            <p><strong>New Business:</strong></p>
+            <ul>
+                <li>Learn java<br>script</li>
+            </ul>
+
+            <img src="https://i.pinimg.com/originals/45/5e/4a/455e4abfe84248f98638211281de656f.jpg" alt="Javascript roadmap" width="500" height="600">
+        </div>
+
+        <form>
+            <fieldset>
+                <h2>Sign in:</h2>
+                <input type="text" id="fname" name="fname">
+                <h3>Student?</h3>
+                <input type="checkbox" id="student" name="student">
+                <h3>Next day to meet:</h3>
+                <input type="date" id="meet" name="meet">
+                <h3>Favorite language?</h3>
+                <input type="radio" id="c++" name="fav_language" value="c++">
+                <label for="c++">C++</label><br>
+                <input type="radio" id="Java" name="fav_language" value="Java">
+                <label for="Java">Java</label><br>
+
+                <input type="radio" id="python" name="fav_language" value="python">
+                <label for="python">Python</label><br>
+
+                <h3>Feedback?</h3>
+                <textarea id="feedback" name="feedback" rows="4" cols="50">Feedback here</textarea> <br>
+                <label for="Framework">Choose your Framework:</label>
+                <input list="Framework" name="Framework" id="Framework">
+                
+                <datalist id="Framework">
+                    <option value="react">
+                    <option value="angular">
+                    <option value="next">
+                    <option value="jQuery">
+                </datalist>
+                <br>
+                <h3>Select major:</h3>
+                <select name="cars" id="cars">
+                    <option value="CS">CS</option>
+                    <option value="mathcs">MathCS</option>
+                    <option value="CognitiveSci">Cognitive Science</option>
+                </select>
+                <br>
+                <button type="button" onclick="alert('Submitted')">Click to submit</button>
+            </fieldset>
+        </form>
+    </body>
+  </main>
+  <footer>
+    <details>
+        <summary>Decide on day to meet next</summary>
+        <p>Sunday 5 pm</p>
+    </details>
+  </footer>
+</html>
